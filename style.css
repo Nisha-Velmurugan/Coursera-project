@@ -1,0 +1,117 @@
+body{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #F7E6C4;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 140px;
+}
+nav{
+    background-color: #606C5D;
+    border-radius: 3px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    color: #FFF4F4;
+ }
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    padding: 5px;
+    margin: 10px;
+}
+
+.first{
+    border-radius: 10px;
+    background-color: #F1C376;
+}
+ 
+.first h1{
+    font-size: 1.6rem;
+    overflow:visible;
+}
+
+.aa, .ab, .ac{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #F1C376;
+    float: right;
+}
+
+.effect:hover{
+    box-shadow: 5px 0px 25px #606C5D;
+}
+
+
+.home:hover, .shop:hover, .sale:hover, .blog:hover{
+    background-color: #121312;
+}
+
+.contact, .copyright{
+    position: absolute;
+}
+
+.contact{
+    left: 1;
+}
+.copyright{
+    right: 0;
+}
+
+.first{
+    background-image: url(./assets/Twitch\ Profile\ Banner\ Botanical\ Nature\ Theme\,\ Monstera\ Plant\ Twitch\ Background\,\ Twitch\ Profile\ Background\,\ Aesthetic\ Twitch\ Banner.jpg);
+}
+
+button{
+    background-color: #F7E6C4;
+    height: 45px;
+    width: 110px;
+    border-radius: 15px;
+    font-family: 'Belanosima', sans-serif;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.interior, .health, .garden {
+    height: 15rem;
+    width: 12rem;
+    float: left;
+    margin-right: 10px;
+}
+
+a{
+    color: black;
+    font-family: 'Patua One', cursive;
+}
+
+a:hover{
+    color: rgb(121, 13, 13);
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+}
+
+p{
+    font-family: 'Signika Negative', sans-serif;
+}
